@@ -6,23 +6,20 @@
 <a href="https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkpad-x-series-laptops/thinkpad-x1-carbon-6th-gen-type-20kh-20kg/downloads/driver-list/component?name=BIOS%2FUEFI">
   <img src="https://img.shields.io/badge/Model-20KH*-9cf"/> </a>
 <a href="https://github.com/CloverHackyColor/CloverBootloader/">
-  <img src="https://img.shields.io/badge/Clover-12AED6"/> </a>
-</p>
-
-<p align="center">
+  <img src="https://img.shields.io/badge/Clover-5139-12AED6"/> </a>
 <a href="https://www.facebook.com/vnohackintosh/">
    <img src="https://img.shields.io/badge/Facebook-VNOHackintosh-informational?style=flat&logo=facebook&logoColor=white&color=3a4dc9"> </a>
 <a href="https://www.facebook.com/vanhung4499/">
    <img src="https://img.shields.io/badge/Facebook-vanhung4499-informational?style=flat&logo=facebook&logoColor=white&color=3a4dc9"> </a>
-<a href="">
 </p>
 
 <p align="center">
 <a href="https://vanhung4499.github.io/x1c6-clover-hackintosh/">
-  <img src="https://raw.githubusercontent.com/vanhung4499/x1c6-clover-hackintosh/master/assets/x1c6.png" alt="Thinkpad X1 Carbon 6th Gen" width="400">
+   <img src="./assets/clover.png"> </a>
 </p>
 
-### Computer Spec:
+
+## Computer Spec:
 
 | Component        | Brank                              |
 | ---------------- | ---------------------------------- |
@@ -36,8 +33,6 @@
 | SmBios           | MacBookPro 15,2                    |
 | BootLoader       | Clover 5139                        |
 | macOS            | Big Sur 11.5.2                     |
-
-![clover](./assets/clover.png)
 
 ### What works and What doesn't or WIP:
 
@@ -62,11 +57,11 @@
 
 ## Installation
 
-When I use X1C6 Opencore EFI from [Tylernguyen repos](https://github.com/tylernguyen/x1c6-hackintosh), Windows crash after 2 minutes, so I switched from opencore to clover.
+When I use X1C6 Opencore EFI from [Tylernguyen repos](https://github.com/tylernguyen/x1c6-hackintosh), Windows crash after 2 minutes, so I switch from opencore to clover.
 
 All ACPI files are taken from his repos, I modified some hotpatch.
 
-Please follow his guide to install macOS to SSD!
+**Generate your SMBIOS Serial Number after install macOS, recommend use Clover Configurator to edit config.plist!**
 
 ## Credits
 
