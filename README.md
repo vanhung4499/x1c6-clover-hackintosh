@@ -7,7 +7,7 @@
   <img src="https://img.shields.io/badge/Model-20KH*-9cf"/> </a>
 <a href="https://github.com/CloverHackyColor/CloverBootloader/">
   <img src="https://img.shields.io/badge/Clover-5139-12AED6"/> </a>
-<a href="https://www.facebook.com/vnohackintosh/">
+<a href="https://www.facebook.com/groups/vnohackintosh">
    <img src="https://img.shields.io/badge/Facebook-VNOHackintosh-informational?style=flat&logo=facebook&logoColor=white&color=3a4dc9"> </a>
 <a href="https://www.facebook.com/vanhung4499/">
    <img src="https://img.shields.io/badge/Facebook-vanhung4499-informational?style=flat&logo=facebook&logoColor=white&color=3a4dc9"> </a>
