@@ -21,18 +21,18 @@
 
 ## Computer Spec:
 
-| Component        | Brank                              |
-| ---------------- | ---------------------------------- |
-| CPU              | Intel i7 8650U                     |
-| iGPU             | Intel UHD620                       |
-| Lan              | Intel I219-LM                      |
-| Audio            | Realtek ALC285                     |
-| Ram              | 16 GB LPDDR3 2133 Mhz              |
-| Wifi + Bluetooth | BCM943602CS + adapter              |
-| NVME             | SAMSUNG 970 EVO PLUS 250 GB        |
-| SmBios           | MacBookPro 15,2                    |
-| BootLoader       | Clover 5139                        |
-| macOS            | Big Sur 11.5.2                     |
+| Component        | Brank                       |
+| ---------------- | --------------------------- |
+| CPU              | Intel i7 8650U              |
+| iGPU             | Intel UHD620                |
+| Lan              | Intel I219-LM               |
+| Audio            | Realtek ALC285              |
+| Ram              | 16 GB LPDDR3 2133 Mhz       |
+| Wifi + Bluetooth | BCM943602CS + adapter       |
+| NVME             | SAMSUNG 970 EVO PLUS 250 GB |
+| SMBIOS           | MacBookPro 15,2             |
+| BootLoader       | Clover 5150                 |
+| macOS            | Big Sur/Monterey/Ventura    |
 
 ### What works and What doesn't or WIP:
 

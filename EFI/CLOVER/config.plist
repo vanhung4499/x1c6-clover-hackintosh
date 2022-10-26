@@ -78,112 +78,156 @@
 				<dict>
 					<key>Comment</key>
 					<string>INIT: OINIT to ZINI</string>
+					<key>Count</key>
+					<integer>0</integer>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>FEcaT0lOSQ==</data>
 					<key>Replace</key>
 					<data>FEcaWklOSQ==</data>
+					<key>Skip</key>
+					<integer>0</integer>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>S3 Sleep: GRPW to ZRPW</string>
+					<key>Count</key>
+					<integer>0</integer>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>R1BSVwI=</data>
 					<key>Replace</key>
 					<data>WlBSVwI=</data>
+					<key>Skip</key>
+					<integer>0</integer>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>S3 Sleep: _WAK to ZWAK(1,S)</string>
+					<key>Count</key>
+					<integer>0</integer>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>X1dBSwk=</data>
 					<key>Replace</key>
 					<data>WldBSwk=</data>
+					<key>Skip</key>
+					<integer>0</integer>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>S3 Sleep: _PTS to ZPTS</string>
+					<key>Count</key>
+					<integer>0</integer>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>X1BUUw==</data>
 					<key>Replace</key>
 					<data>WlBUUw==</data>
+					<key>Skip</key>
+					<integer>0</integer>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>XHC1: _UPC to XUPC</string>
+					<key>Count</key>
+					<integer>0</integer>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>X1VQQw==</data>
 					<key>Replace</key>
 					<data>WFVQQw==</data>
+					<key>Skip</key>
+					<integer>0</integer>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>XHC1: _PS0 to XPS0</string>
+					<key>Count</key>
+					<integer>0</integer>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>FEIQX1BTMAg=</data>
 					<key>Replace</key>
 					<data>FEIQWFBTMAg=</data>
+					<key>Skip</key>
+					<integer>0</integer>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>XHC1: _PS3 to XPS3</string>
+					<key>Count</key>
+					<integer>0</integer>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>FEY/X1BTMwg=</data>
 					<key>Replace</key>
 					<data>FEY/WFBTMwg=</data>
+					<key>Skip</key>
+					<integer>0</integer>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>Thunderbolt 3: RP09:_PS0 to RP09:XPS0</string>
+					<key>Count</key>
+					<integer>0</integer>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>X1BTMAhbgFBMVA==</data>
 					<key>Replace</key>
 					<data>WFBTMAhbgFBMVA==</data>
+					<key>Skip</key>
+					<integer>0</integer>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>Thunderbolt 3: RP09:_PS3 to RP09:XPS3</string>
+					<key>Count</key>
+					<integer>0</integer>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>X1BTMwhbgFBMVA==</data>
 					<key>Replace</key>
 					<data>WFBTMwhbgFBMVA==</data>
+					<key>Skip</key>
+					<integer>0</integer>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>Thunderbolt 3: RP09._INI to RP09.XINI for ICM disable</string>
+					<key>Count</key>
+					<integer>0</integer>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>X0lOSQBwTFRSOQ==</data>
 					<key>Replace</key>
 					<data>WElOSQBwTFRSOQ==</data>
+					<key>Skip</key>
+					<integer>0</integer>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>Thunderbolt 3: NTFY to XTFY</string>
+					<key>Count</key>
+					<integer>0</integer>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>FENHTlRGWQk=</data>
 					<key>Replace</key>
 					<data>FENHWFRGWQk=</data>
+					<key>Skip</key>
+					<integer>0</integer>
 				</dict>
 			</array>
 			<key>ReuseFFFF</key>
@@ -237,7 +281,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-v rtcfx_exclude=80-AB</string>
+		<string>rtcfx_exclude=80-AB -v</string>
 		<key>CustomLogo</key>
 		<false/>
 		<key>Debug</key>
@@ -319,6 +363,8 @@
 				<data>AQAAAA==</data>
 				<key>framebuffer-stolenmem</key>
 				<data>AAAwAQ==</data>
+				<key>framebuffer-unifiedmem</key>
+				<data>AAAA/w==</data>
 			</dict>
 		</dict>
 		<key>USB</key>
@@ -438,6 +484,8 @@
 		<integer>0</integer>
 		<key>RebuildAppleMemoryMap</key>
 		<false/>
+		<key>ResizeAppleGpuBars</key>
+		<integer>-1</integer>
 		<key>SetupVirtualMap</key>
 		<true/>
 		<key>SignalAppleOS</key>
@@ -455,6 +503,8 @@
 		<string>0x28</string>
 		<key>CsrActiveConfig</key>
 		<string>0x67</string>
+		<key>HWTarget</key>
+		<string>J132AP</string>
 		<key>MLB</key>
 		<string>C02032109R5DC771H</string>
 		<key>ROM</key>
@@ -463,17 +513,17 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>07/05/2021</string>
+		<string>08/29/2022</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBP152.88Z.F000.B00.2107050204</string>
+		<string>MBP152.88Z.F000.B00.2208290026</string>
 		<key>Board-ID</key>
 		<string>Mac-827FB448E656EC26</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02821303CDJH4RJC</string>
+		<string>C028259024NJH4RJA</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -485,7 +535,11 @@
 		<key>ChassisType</key>
 		<string>0x9</string>
 		<key>EfiVersion</key>
-		<string>1715.0.57.0.0</string>
+		<string>1916.40.2.0.0</string>
+		<key>ExtendedFirmwareFeatures</key>
+		<string>0x00000008FD8FF426</string>
+		<key>ExtendedFirmwareFeaturesMask</key>
+		<string>0x00000008FF9FFF3F</string>
 		<key>Family</key>
 		<string>MacBook Pro</string>
 		<key>FirmwareFeatures</key>
@@ -503,9 +557,9 @@
 		<key>ProductName</key>
 		<string>MacBookPro15,2</string>
 		<key>SerialNumber</key>
-		<string>C02WRFZNJHCC</string>
+		<string>C02WW0TNJHCC</string>
 		<key>SmUUID</key>
-		<string>8DBC7406-DF21-499B-AFFA-60DB11F1AC7D</string>
+		<string>EE47B6DC-E918-4F2B-A7C7-F342CB23023D</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
